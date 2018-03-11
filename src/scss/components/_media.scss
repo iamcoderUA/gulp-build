@@ -1,0 +1,46 @@
+@function rem($px) {
+	@return $px / 16px + 0rem;
+}
+
+@mixin desktopHD {
+	@media screen and (max-width: $desktopHD) {
+		@content;
+	}
+}
+@mixin desktop {
+	@media screen and (max-width: $desktop) {
+		@content;
+	}
+}
+@mixin laptopsHDPI {
+	@media screen and (max-width: $laptopsHDPI) {
+		@content;
+	}
+}
+@mixin laptopsMDPI {
+	@media screen and (max-width: $laptopsMDPI) {
+		@content;
+	}
+}
+@mixin laptops {
+	@media screen and (max-width: $laptops) {
+		@content;
+	}
+}
+@mixin tablets {
+	@media screen and (max-width: $tablets) {
+		@content;
+	}
+}
+
+@mixin phones {
+	@media screen and (max-width: $phones) {
+		@content;
+	}
+}
+
+@mixin vertical {
+	@media screen and (max-width: $vertical) {
+		@content;
+	}
+}

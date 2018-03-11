@@ -1,0 +1,26 @@
+// colors
+$black: #000;
+
+// resolutions
+$desktopHD: 1920px;
+$desktop: 1600px;
+$laptopsHDPI: 1440px;
+$laptopsMDPI: 1280px;
+$laptops: 960px;
+$tablets: 600px;
+$phones: 480px;
+$vertical: 320px;
+
+// components
+@import "components/_media";
+@import "components/_mixins";
+
+// layout
+@import "layout/fonts";
+@import "layout/base";
+@import "layout/adjusment";
+
+// sections
+@import "sections/index";
+
+

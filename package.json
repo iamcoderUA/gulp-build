@@ -1,0 +1,45 @@
+{
+  "name": "gulp-build",
+  "version": "1.0.0",
+  "description": "Simple frontend build using Gulp (for quick start and small tasks without js modularity)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamcoderUA/gulp-build.git"
+  },
+  "keywords": [],
+  "author": "Stanislav Mikhniev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamcoderUA/gulp-build/issues"
+  },
+  "homepage": "https://github.com/iamcoderUA/gulp-build#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "eslint": "^4.18.2",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cheerio": "^0.6.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-svg-sprites": "^4.1.2",
+    "gulp-svgmin": "^1.2.4",
+    "gulp-uglify": "^3.0.0",
+    "node-sass": "^4.8.1"
+  },
+  "dependencies": {
+    "node-normalize-scss": "^3.0.0"
+  }
+}
