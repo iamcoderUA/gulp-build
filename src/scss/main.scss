@@ -16,11 +16,8 @@ $vertical: 320px;
 @import "components/_mixins";
 
 // layout
-@import "layout/fonts";
 @import "layout/base";
 @import "layout/adjusment";
 
 // sections
 @import "sections/index";
-
-
