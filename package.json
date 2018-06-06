@@ -38,7 +38,6 @@
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^3.0.0",
     "gulp-imagemin": "^3.4.0",
-    "gulp-notify": "^3.0.0",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.6.1",
@@ -48,6 +47,7 @@
     "gulp-svgmin": "^1.2.4",
     "gulp-uglify": "^3.0.0",
     "node-sass": "^4.8.1",
+    "nodemon": "^1.17.5",
     "webpack": "^4.8.3",
     "webpack-stream": "^4.0.3"
   },
