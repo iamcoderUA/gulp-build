@@ -65,7 +65,6 @@ function sprites() {
       basename: 'sprite',
       suffix: '.min',
     }))
-    .pipe(notify('Create sprite svg success'))
     .pipe(plumber.stop())
     .pipe(gulp.dest('prod/img/'));
 }
