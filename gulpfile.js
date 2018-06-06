@@ -3,7 +3,6 @@ const webpackStream = require('webpack-stream');
 const sass = require('gulp-sass');
 const browserSync = require('browser-sync').create();
 const plumber = require('gulp-plumber');
-const notify = require('gulp-notify');
 const del = require('del');
 
 const autoprefixer = require('gulp-autoprefixer');
@@ -75,7 +74,6 @@ function sprites() {
 function templates() {
   return gulp.src(paths.html.src)
     .pipe(plumber())
-    .pipe(notify('Template success'))
     .pipe(plumber.stop())
     .pipe(gulp.dest(paths.html.dest));
 }
@@ -89,7 +87,6 @@ function scss() {
     .pipe(csso())
     .pipe(sourcemaps.write())
     .pipe(rename({ suffix: '.min' }))
-    .pipe(notify('Style success'))
     .pipe(plumber.stop())
     .pipe(gulp.dest(paths.styles.dest));
 }
@@ -116,7 +113,6 @@ function scripts() {
     }))
     .pipe(uglify())
     .pipe(concat('main.min.js'))
-    .pipe(notify('Scripts success'))
     .pipe(plumber.stop())
     .pipe(gulp.dest(paths.scripts.dest));
 }
@@ -147,7 +143,6 @@ function imgMin() {
   return gulp.src(paths.images.src)
     .pipe(plumber())
     .pipe(imagemin())
-    .pipe(notify('Image success'))
     .pipe(plumber.stop())
     .pipe(gulp.dest(paths.images.dest));
 }
