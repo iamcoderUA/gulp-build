@@ -1,4 +1,4 @@
-"Simple frontend build using Gulp (for quick start and small tasks without js modularity)"
+"Simple frontend build using Gulp (for quick start and small tasks)"
 
 Author: Stanislav Mikhniev Version 1.0
 
